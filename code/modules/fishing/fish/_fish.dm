@@ -161,6 +161,7 @@
 	// All spacemen have magic eyes of fish weight perception until fish scale (get it?) is implemented.
 	. += span_notice("It's [size] cm long.")
 	. += span_notice("It weighs [weight] g.")
+	//. += span_notice("It's required water type is [required_fluid_type].")
 
 ///Randomizes weight and size.
 /obj/item/fish/proc/randomize_size_and_weight(avg_size = average_size, avg_weight = average_weight, deviation = 0.2, first_run = FALSE)
